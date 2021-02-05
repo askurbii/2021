@@ -630,15 +630,14 @@ header .container{
     cursor: pointer;
     font-weight: bold;
     font-size: 16px;
-/* identical to box height, or 156% */
-
-
-color: #FFFFFF;
+    transition: .5s;
+    color: #FFFFFF;
+    box-shadow: 0 1px 20px #ff33332c;
 }
 
 .subscribe-now-btn:hover{
     box-shadow: 0 1px 20px #ff3333;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 
